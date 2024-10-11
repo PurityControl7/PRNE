@@ -276,7 +276,7 @@ Let's break down this code:
 
     1. IP Construction: The variable ```ip``` holds the constructed IP address (```ip = ip_3_octets + str(ip_last_octet)```).
 	
-	2. Fetch Interface Information: The ```get_ip_int_br(ip``` function is called to retrieve the interface details for the current IP address.
+	2. Fetch Interface Information: The ```get_ip_int_br(ip)``` function is called to retrieve the interface details for the current IP address.
 	
 	3. Check if the Response Contains Data:
 	
